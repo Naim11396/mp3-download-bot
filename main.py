@@ -142,7 +142,7 @@ async def post_init(application: Application) -> None:
 
 # Main program
 if __name__ == '__main__':
-    application = ApplicationBuilder().token(os.environ['BOT_TOKEN']).post_init(post_init).build()
+    application = ApplicationBuilder().token(os.environ['8047562257:AAFxBckzVrX3O3XiU0TaXM2EE6KqgeTGzhk']).post_init(post_init).build()
 
     # Instantiate the handlers
     youtube_handler = MessageHandler(
